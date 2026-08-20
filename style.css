@@ -47,8 +47,14 @@ header {
 }
 
 .logo {
-  font-size: 28px;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 34px;
+  width: auto;
+  display: block;
 }
 
 nav {
@@ -621,9 +627,8 @@ footer {
     gap: 12px;
   }
 
-  .logo {
-    font-size: 20px;
-    white-space: nowrap;
+  .logo img {
+    height: 26px;
   }
 
   nav {
