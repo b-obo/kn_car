@@ -579,12 +579,21 @@ footer {
 
 .footer-inner h3 {
   font-size: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .footer-inner p {
   color: #aaa;
   margin-bottom: 12px;
+}
+
+.footer-tagline {
+  margin-bottom: 24px;
+}
+
+.footer-meta {
+  font-size: 14px;
+  margin-bottom: 6px;
 }
 
 .copyright {
@@ -878,8 +887,12 @@ footer {
     font-size: 14px;
   }
 
-  .footer-inner .copyright {
+  .footer-inner .footer-meta {
     font-size: 12px;
+  }
+
+  .footer-inner .copyright {
+    font-size: 11px;
   }
 
   .bottom-contact-bar {
