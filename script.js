@@ -14,3 +14,20 @@ function showFadeElements() {
 window.addEventListener('scroll', showFadeElements);
 
 showFadeElements();
+
+const navToggle = document.getElementById('navToggle');
+const nav = document.getElementById('nav');
+
+function closeNav() {
+  nav.classList.remove('nav-open');
+  navToggle.setAttribute('aria-expanded', 'false');
+}
+
+navToggle.addEventListener('click', () => {
+  const isOpen = nav.classList.toggle('nav-open');
+  navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+});
+
+nav.querySelectorAll('a').forEach((link) => {
+  link.addEventListener('click', closeNav);
+});
