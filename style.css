@@ -111,6 +111,7 @@ nav a {
 
 .hero-content p {
   font-size: 20px;
+  line-height: 1.6;
   margin-bottom: 40px;
 }
 
@@ -713,6 +714,7 @@ footer {
 
   .hero-content p {
     font-size: 16px;
+    line-height: 1.7;
     padding: 0 20px;
   }
 
