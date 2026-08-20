@@ -18,6 +18,16 @@ body {
   color: white;
 }
 
+br.br-desktop {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  br.br-desktop {
+    display: inline;
+  }
+}
+
 header {
   position: fixed;
   width: 100%;
